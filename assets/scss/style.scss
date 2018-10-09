@@ -1,0 +1,85 @@
+body {
+    background-color:rgba(65, 60, 55, 0.418);
+}
+/*********************** HEADER *********************S****************/
+.containerHeader
+{
+	vertical-align: middle;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-radius: 3%;
+	border : 2px solid black;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#idPortFolio{width: 10%; vertical-align: middle; display: table-cell;}
+#idElementHeader{width: 33%; vertical-align: middle;  display: table-cell; text-align: center;}
+
+.btn{
+	background-color: rgb(161, 167, 167);
+}
+/********************* INFO PERSO ***********************************/
+.elementPerso{
+	font-size: 20px;
+	display: flex;
+	vertical-align: middle;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.imagePerso{
+	width: 50%;
+	text-align: center;
+	margin-top: 15px;
+	vertical-align: middle;  
+	display: table-cell; 
+}
+
+.infoPerso{
+	margin-left: 10%;
+	width: 50%;
+	vertical-align: middle; 
+	display: table-cell;
+}
+#namePerso{ margin-bottom: 0;}
+#spacePerso{ margin-top: 25px;}
+
+/************************ ETUDES ************************************/
+.blockStyle{
+	border-radius: 3px;
+}
+.elementEtude{
+	display: flex;
+	color: rgb(214, 201, 184);
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-bottom: 3%;
+}
+
+#nameEtude{
+	text-align: center;
+}
+
+.infoLieux{
+	display: block;
+	text-align: center;
+	font-style: italic;
+}
+
+/************************ COMMUN ************************************/
+.title{
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: lightgrey;
+	text-align: center;	
+	border: 2px solid black;
+	margin-bottom: 0; 
+	margin-top: 5%; 
+	border-radius: 3px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#idColorGrey{background-color: rgb(59, 59, 59);}
+#idColorPastelRed{background-color: rgb(114, 90, 67)}
+#idColorBrown{background-color: rgba(196, 119, 20, 0.418)}
+
+
