@@ -1,9 +1,10 @@
 body {
-  background-color: rgba(65, 60, 55, 0.418);
+  background-color: rgba(66, 61, 56, 0.42);
 }
 
-/*********************** HEADER *********************S****************/
+/*********************** HEADER *************************************/
 .containerHeader {
+  background-color: rgba(196, 119, 20, 0.418);
   vertical-align: middle;
   margin-right: 5%;
   margin-left: 5%;
@@ -33,24 +34,19 @@ body {
 .elementPerso {
   font-size: 20px;
   display: flex;
-  vertical-align: middle;
   margin-right: 5%;
   margin-left: 5%;
 }
 
 .imagePerso {
-  width: 50%;
+  width: 20%;
   text-align: center;
   margin-top: 15px;
-  vertical-align: middle;
-  display: table-cell;
 }
 
 .infoPerso {
-  margin-left: 10%;
-  width: 50%;
+  width: 30%;
   vertical-align: middle;
-  display: table-cell;
 }
 
 #namePerso {
@@ -58,12 +54,13 @@ body {
 }
 
 #spacePerso {
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 /************************ ETUDES ************************************/
-.blockStyle {
+.blockEtude {
   border-radius: 3px;
+  background-color: #3b3b3b;
 }
 
 .elementEtude {
@@ -74,6 +71,10 @@ body {
   padding-bottom: 3%;
 }
 
+.widthEtude {
+  width: 33%;
+}
+
 #nameEtude {
   text-align: center;
 }
@@ -82,6 +83,12 @@ body {
   display: block;
   text-align: center;
   font-style: italic;
+}
+
+/************************ EXPRERIENCE ********************************/
+.blockXP {
+  border-radius: 3px;
+  background-color: #725a43;
 }
 
 /************************ COMMUN ************************************/
