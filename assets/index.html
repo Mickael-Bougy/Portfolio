@@ -3,9 +3,10 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/style.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="text/javascript" src="js/script.js"></script>
 	<script src="D:\nodejs\node_modules\npm\node_modules\jquery\dist/jquery.min.js"></script>
-	<title>PorteFolio</title>
+	<title>PorteFolio BOUGY MICKAEL</title>
 </head>
 
 <body>
@@ -17,7 +18,7 @@
 			<img src="../image/android.png" style="width: 100px; height: 100px">
 		</div>
 		<div id="idPortFolio">
-			<h1>PORTFOLIO</h1>
+			<h1>PORTFOLIO <br>BOUGY MICKAEL</h1>
 		</div>
 		<div id="idElementHeader">
 			<button id="btn_id" name="nuitJour" type="button" onclick="start()">Mode Nuit</button> 
@@ -27,82 +28,91 @@
 	<!-- BLOCK INFO PERSO-->
 	<div>
 		<h2 class="title" > INFORMATIONS PERSONNELLES </h2>
+		
 		<div class="elementPerso">
 			<div class="imagePerso">
-				<img src="../image/account.png" style="width: 80px; height: 80px;"><br>
-				<img src="../image/phone_icon.png" style="width: 50px; height: 50px;"><br>
-				<img src="../image/mail_icon.png" style="width: 50px; height: 50px;">
+				<img src="../image/account.png" style="width: 60px; height: 60px;" id="spaceImage"><br>
+				<img src="../image/phone_icon.png" style="width: 60px; height: 60px;" id="spaceImage"><br>
+				<img src="../image/mail_icon.png" style="width: 60px; height: 60px;" id="spaceImage">
 			</div>
-			<div class="infoPerso">
-				<h3 id="namePerso">BOUGY Mickaël</h3>
-				<p1>
-					Née le 21/04/1997
+			<div>
+				<p1 class="spacePerso">
+					BOUGY Mickaël<br>
+					21/04/1997
 				</p1>
-				<div id="spacePerso">
-					<p1>07.89.99.85.78</p1>
-				</div>
-				<div id="spacePerso">
-					<p1>bougy.mickael@gmail.com</p1>
-				</div>
+				<p1 class="spacePerso">07.89.99.85.78</p1>
+				
+				<p1 class="spacePerso">bougy.mickael@gmail.com</p1>
+					
 			</div>
+			
 			<div class="imagePerso">
-				<img src="../image/home.png" style="width: 80px; height: 80px;"><br>
-				<img src="../image/car.png" style="width: 50px; height: 50px;"><br>
-				<img src="../image/soccer.png" style="width: 50px; height: 50px;"><br>
+				<img src="../image/home.png" style="width: 60px; height: 60px;" id="spaceImage"><br>
+				<img src="../image/car.png" style="width: 60px; height: 60px;" id="spaceImage"><br>
+				<img src="../image/soccer.png" style="width: 60px; height: 60px;" id="spaceImage"><br>
 			</div>
-			<div class="infoPerso">
-				<p1 >
+			<div>
+				<p1 class="spacePerso" >
 					115 chemin de l'hôpital<br>
 					38160 MONTAGNE
 				</p1>
-				<div id="spacePerso">
-					<p1>
-						Permis B <br>
-						Voiture personelle
-					</p1>
-				</div>
-				<div id="spacePerso">
-					<p1>Licencié au club de l'USEA</p1>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- BLOCK ETUDES-->
-	<div class="blockEtude"  >
-		<h2 class="title" > ETUDES </h2>
-		<div class="elementEtude">
-			<div class="widthEtude">
-				<h3 id="nameEtude">Licence Professionnelle: Conception, développement et test de logiciels (SMIN)</h3>
-				<p1 class="infoLieux">IUT 1 de Grenoble </p1>
-				<p1 class="infoLieux">En cours</p1>
+				<p1 class="spacePerso">
+					Permis B
+				</p1>
+				<p1  class="spacePerso">Licencié au club de l'USEA</p1>
+
 			</div>	
-			<div class="widthEtude">
-				<h3 id="nameEtude">Licence Professionnelle: Conception des systèmes embarqués (CSE)</h3>
-				<p1 class="infoLieux">IUT 1 de Grenoble</p1>
-				<p1 class="infoLieux">2018</p1>
-			</div>
-			<div class="widthEtude">
-				<h3 id="nameEtude">BTS Systèmes Numériques option Informatique et réseau</h3>
-				<p1  class="infoLieux">Lycée du Grésivaudan</p1>
-				<p1  class="infoLieux">2017</p1>
-			</div>
 		</div>
 	</div>
-	
-	
-	<!-- BLOCK EXPERIENCE-->
-	<div  class="blockXP" >
-		<h2 class="title" >EXPERIÉNCE PROFESSIONNELLE</h2>
-		<ul>
-			<li>Eliot - Apprenti développeur android, mise en place d'une messagerie entre utilisateur clients - 2018/2019 </li>
-			<hr>
-			<li>AIM - Apprenti développeur, création de blocs de fonctionalité pour Agilia - 2017/2018 </li>
-			<hr>
-			<li>Hôpital de Saint Marcellin - Stagiaire développeur, maintenance évolutive du site Bon De Travaux - 2016 </li>
-			<hr>
-			<li>E.Leclerc Drive Chatte - CDI, préparateur de commande - 2015-2017 </li>
-		</ul>
+</div>
+
+
+<!-- BLOCK ETUDES-->
+<div class="blockEtude"  >
+	<h2 class="title" > ETUDES </h2>
+	<div class="elementEtude">
+		<div class="widthEtude">
+			<h3 id="nameEtude">Licence Professionnelle: Conception, développement et test de logiciels (SMIN)</h3>
+			<p1 class="infoLieux">IUT 1 de Grenoble </p1>
+			<p1 class="infoLieux">En cours</p1>
+		</div>	
+		<div class="widthEtude">
+			<h3 id="nameEtude">Licence Professionnelle: Conception des systèmes embarqués (CSE)</h3>
+			<p1 class="infoLieux">IUT 1 de Grenoble</p1>
+			<p1 class="infoLieux">2018</p1>
+		</div>
+		<div class="widthEtude">
+			<h3 id="nameEtude">BTS Systèmes Numériques option Informatique et réseau</h3>
+			<p1  class="infoLieux">Lycée du Grésivaudan</p1>
+			<p1  class="infoLieux">2017</p1>
+		</div>
 	</div>
+</div>
+
+<!-- BLOCK EXPERIENCE-->
+<div  class="blockXP" >
+	<h2 class="title" >EXPERIÉNCE PROFESSIONNELLE</h2>
+	<ul class="listeXp">
+		<li>Eliot - Apprenti développeur android, mise en place d'une messagerie entre utilisateur clients - 2018/2019 </li>
+		<hr>
+		<li>AIM - Apprenti développeur, création de blocs de fonctionalité pour Agilia - 2017/2018 </li>
+		<hr>
+		<li>Hôpital de Saint Marcellin - Stagiaire développeur, maintenance évolutive du site Bon De Travaux - 2016 </li>
+		<hr>
+		<li>E.Leclerc Drive Chatte - CDI, préparateur de commande - 2015-2017 </li>
+	</ul>
+</div>
+
+<!-- BLOCK LANGAGE DE PROGRAMMATION-->
+<div class="blockProg">
+	<h2 class="title">LANGAGE DE PROGRAMMATION</h2>
+	<ul class="listeXp">
+		<li>JAVA</li>
+		<hr>
+		<li>ANDROID</li>
+		<hr>
+		<li>C</li>
+	</ul>
+</div>
 </body>
 </html>

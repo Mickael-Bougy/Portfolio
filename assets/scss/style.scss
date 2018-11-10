@@ -1,5 +1,5 @@
 body {
-    background-color:#9a8478;
+	background-color:#D6C9B8;
 }
 /*********************** HEADER *************************************/
 .containerHeader
@@ -13,7 +13,7 @@ body {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#idPortFolio{width: 10%; vertical-align: middle; display: table-cell;}
+#idPortFolio{width: 10%; vertical-align: middle; display: table-cell; text-align: center;}
 #idElementHeader{width: 33%; vertical-align: middle;  display: table-cell; text-align: center;}
 
 .btn{
@@ -25,7 +25,9 @@ body {
 	display: flex;
 	margin-right: 5%;
 	margin-left: 5%;
+
 }
+
 .imagePerso{
 	width: 20%;
 	text-align: center;
@@ -33,27 +35,35 @@ body {
 }
 
 .infoPerso{
+	display: block;
 	width: 30%;
 	vertical-align: middle; 
 }
-#namePerso{ margin-bottom: 0;}
+.spacePerso{ display: block; margin-top: 40px;}
 #spacePerso{ margin-top: 40px;}
+#spaceImage{margin-top: 5px;}
 
 /************************ ETUDES ************************************/
 .blockEtude{
 	border-radius: 3px;
-	background-color: rgb(59, 59, 59);
+	background-color: #3b3b3b;
 }
 .elementEtude{
 	display: flex;
-	color: rgb(214, 201, 184);
+	color: #d6c9b8;
 	margin-right: 5%;
 	margin-left: 5%;
 	padding-bottom: 3%;
+	@media all and (max-width : 600px){	
+		flex-direction: column;		
+	}	
 }
 
 .widthEtude{
 	width: 33%;
+	@media all and (max-width : 600px){
+		width :100%;	
+	}
 }
 
 #nameEtude{
@@ -71,6 +81,17 @@ body {
 .blockXP{
 	border-radius: 3px;
 	background-color: rgb(114, 90, 67);
+}
+
+.listeXp{
+	color: rgb(214, 201, 184);	
+	padding-bottom: 3%;
+}
+
+/************************ PROGRAMMATION ********************************/
+.blockProg{
+	border-radius: 3px;
+	background-color: rgb(95, 95, 95);
 }
 /************************ COMMUN ************************************/
 .title{
