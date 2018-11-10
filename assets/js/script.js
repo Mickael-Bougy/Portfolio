@@ -1,23 +1,49 @@
 
+
 var index = 0;
 var intervalId = null;
-
+var isNuit = false;
+var tab = ['#9a8478','#9a8478','#948278','#908078','#8D7F78',
+'#8A7E78','#877D77','#847C77','#817B77','#7D7977'];
 function modenuit() {
+	
+	switch(isNuit)
+	{
+		case true : toJour();
+		break;
+		case false : toNuit();
+		break;
+	}
+}
 
-	var tab = ['red','green','yellow'];
+function toNuit (){
 	
 	if(index < tab.length){
-		console.log($('body').css('backgroundColor'))
 		$('body').css('backgroundColor',tab[index]);
-		console.log(index);
 		index++;
 	}
-	else finish();
+	else {
+		$('nuitJour').text("Mode Jour");
+		finish();
+		isNuit =!isNuit;
+	}
 	
 }
 
+function toJour (){
+	
+	if(index >= 0){
+		$('body').css('backgroundColor',tab[index]);
+		index--;
+	}
+	else {
+		finish();
+		isNuit =!isNuit;
+	}
+	
+}
 function start(){
-	intervalId = setInterval(modenuit, 1000);
+	intervalId = setInterval(modenuit, 100);
 }	
 
 function finish() {
