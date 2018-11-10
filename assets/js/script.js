@@ -20,6 +20,7 @@ function toNuit (){
 	
 	if(index < tab.length){
 		$('body').css('backgroundColor',tab[index]);
+		document.getElementById("btn_id").innerHTML = "Mode Jour";
 		index++;
 	}
 	else {
@@ -34,6 +35,7 @@ function toJour (){
 	
 	if(index >= 0){
 		$('body').css('backgroundColor',tab[index]);
+		document.getElementById("btn_id").innerHTML = "Mode Nuit";
 		index--;
 	}
 	else {
@@ -42,6 +44,8 @@ function toJour (){
 	}
 	
 }
+
+
 function start(){
 	intervalId = setInterval(modenuit, 100);
 }	
