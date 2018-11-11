@@ -1,10 +1,9 @@
-
-
 var index = 0;
 var intervalId = null;
 var isNuit = false;
 var tab = ['#D6C9B8','#CEC2B2','#C6BAAC','#BEB3A6','#B6ACA0',
 '#AEA59A','#A59D95','#9D968F','#958F89','#8D8883','#85807D','#7D7977'];
+
 function modenuit() {
 	
 	switch(isNuit)
@@ -44,7 +43,6 @@ function toJour (){
 	}
 	
 }
-
 
 function start(){
 	intervalId = setInterval(modenuit, 100);

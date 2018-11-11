@@ -13,6 +13,10 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+.btn {
+  background-color: #a1a7a7;
+}
+
 #idPortFolio {
   width: 10%;
   vertical-align: middle;
@@ -25,10 +29,6 @@ body {
   vertical-align: middle;
   display: table-cell;
   text-align: center;
-}
-
-.btn {
-  background-color: #a1a7a7;
 }
 
 /********************* INFO PERSO ***********************************/
@@ -46,7 +46,6 @@ body {
 }
 
 .infoPerso {
-  display: block;
   width: 30%;
   vertical-align: middle;
 }
@@ -56,12 +55,14 @@ body {
   margin-top: 40px;
 }
 
-#spacePerso {
-  margin-top: 40px;
+.dimensionImage {
+  margin-top: 5px;
+  width: 60px;
+  height: 60px;
 }
 
-#spaceImage {
-  margin-top: 5px;
+#spacePerso {
+  margin-top: 40px;
 }
 
 /************************ ETUDES ************************************/
@@ -92,14 +93,14 @@ body {
   }
 }
 
-#nameEtude {
-  text-align: center;
-}
-
 .infoLieux {
   display: block;
   text-align: center;
   font-style: italic;
+}
+
+#nameEtude {
+  text-align: center;
 }
 
 /************************ EXPRERIENCE ********************************/
@@ -130,18 +131,6 @@ body {
   margin-top: 5%;
   border-radius: 3px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-#idColorGrey {
-  background-color: #3b3b3b;
-}
-
-#idColorPastelRed {
-  background-color: #725a43;
-}
-
-#idColorBrown {
-  background-color: rgba(196, 119, 20, 0.418);
 }
 
 /*# sourceMappingURL=style.css.map */
